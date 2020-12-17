@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/calculate_me_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_number_of_students"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <EditText
+            android:id="@+id/editText_numberOfStudents"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_a_s_students"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_numberOf_AsStudents"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_b_s_students"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_numberOf_BsStudents"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_c_students"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_numberOf_CsStudents"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_d_students"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_numberOf_DsStudents"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_f_students"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_numberOf_FsStudents"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/button_calculate"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate" />
+
+    </LinearLayout>
+</ScrollView>

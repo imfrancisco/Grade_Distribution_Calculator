@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Grade Distribution Calculator</string>
+    <string name="total_number_of_students">Total Number of Students</string>
+    <string name="number_of_a_s_students">Number of Students with A\'s</string>
+    <string name="number_of_b_s_students">Number of Students with B\'s</string>
+    <string name="number_of_c_students">Number of Students with C\'s</string>
+    <string name="number_of_d_students">Number of Students with D\'s</string>
+    <string name="number_of_f_students">Number of Students with F\'s</string>
+    <string name="calculate">CALCULATE</string>
+</resources>
